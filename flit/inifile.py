@@ -16,3 +16,5 @@ def read_flit_config(path):
         else:
             raise ConfigError("Invalid config values (see log)")
     return res
+
+print('black works?')
