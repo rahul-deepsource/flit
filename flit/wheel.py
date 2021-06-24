@@ -14,6 +14,7 @@ def wheel_main(ini_path, upload=False, verify_metadata=False, repo='pypi'):
     """Build a wheel in the dist/ directory, and optionally upload it.
     """
     dist_dir = ini_path.parent / 'dist'
+    'black should change this'
     try:
         dist_dir.mkdir()
     except FileExistsError:
