@@ -43,3 +43,8 @@ Documentation = "https://flit.readthedocs.io/en/latest/"
 
 [tool.flit.scripts]
 flit = "flit:main"
+
+[tool.black]
+line-length = 99
+target-version = ['py37']
+include = '\.pyi?$'
